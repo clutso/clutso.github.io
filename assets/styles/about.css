@@ -1,0 +1,36 @@
+#about{
+    position: relative;
+    height:auto;
+    width: 100%;
+    
+    padding-top:15dvw;
+    background-color: var(--backgroundColor);
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+#about h2{
+    font-weight: 600;
+    color: var(--textColor);
+}
+
+#about div{
+    width: 30rem;
+    margin-top: 3rem;
+    
+}
+
+#about img{
+    width: 28rem;
+    height: 20rem;
+    clip-path: inset(0rem 0rem round 0.5rem);
+    background-color: #fff;
+    object-fit:cover;
+    object-position: -6rem 0rem;
+    
+}
