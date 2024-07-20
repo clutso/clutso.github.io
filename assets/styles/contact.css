@@ -1,0 +1,56 @@
+#contact {
+    position: relative;
+    height: 112dvh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h2{
+    color: #fff;
+}
+
+#contact p{
+    font-size: large;
+}
+
+#contact a {
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+#contact ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 5dvw;
+    margin-top: 5rem;
+    padding-bottom: 4dvw;
+}
+
+#contact li {
+    font-weight: 700;
+    font-size: xx-large;
+    
+    padding: 1rem;
+}
+
+#contact div {
+    margin-bottom: 5dvw;
+}
+
+#contact img {
+    width: 28rem;
+    height: 20rem;
+    clip-path: inset(0rem 0rem round 0.5rem);
+    background-color: #fff;
+    object-fit: cover;
+    object-position: 0rem 0rem;
+}
